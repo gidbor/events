@@ -1,16 +1,28 @@
-import Head from 'next/head'
-
-import Button from '@mui/material/Button'
+import PageLayout from "@components/Templates/page-layout";
 
 const Home = () => {
   return (
-    <>
-      <Head>
-        <title>Hola</title>
-        <Button variant='contained'>Hello World</Button>
-      </Head>
-    </>
+    <PageLayout title="Events - Home">
+      {/* TODO */} 
+      <div>
+        <div>
+          <div>
+            <div>🍔 Gol de Oro</div>
+            <div>Arturo Garcia 👱</div>
+          </div>
+          <div>
+          {/* TODO */}
+          <main>
+            <h1 className="text-3xl font-bold underline">
+              Hello world!
+            </h1>
+          </main>
+          </div>
+        </div>
+      </div>
+      {/* fin TODO */} 
+    </PageLayout>
   )
 }
 
-export default Home
+export default Home;

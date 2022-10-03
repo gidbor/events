@@ -3,3 +3,17 @@
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
+
+:root {
+  --white: #FFF;
+  /* banner */
+  --border-input: #ACACAC;
+  --bg-button: #949494;
+  --text-input: #B0B0B0;
+  --bg-banner: #F4F4F4;
+}
+
+body, html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}

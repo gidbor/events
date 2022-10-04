@@ -1,0 +1,37 @@
+.login-section__login-button,
+.login-section__sup-button {
+    background-color: var(--bg-lin-button);
+    border: 1px solid var(--border-input);
+    box-sizing: border-box;
+    color: var(--bg-lin-text-inputt);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    line-height: 2.25rem;
+    width: 152px;
+    height: 58px;
+    text-transform: uppercase;
+}
+
+.login-section__sup-button {
+    background-color: var(--bg-button);
+}
+
+.nav-bar-section__company-name {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.nav-bar-section__option-label {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.nav-bar-section__option-label:hover {
+    cursor: pointer;
+    color: var(--bg-button);
+}

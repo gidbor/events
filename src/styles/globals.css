@@ -11,6 +11,8 @@
   --bg-button: #949494;
   --text-input: #B0B0B0;
   --bg-banner: #F4F4F4;
+  --bg-lin-button: #F5F5F5;
+  --bg-lin-text-input: #000;
 }
 
 body, html {

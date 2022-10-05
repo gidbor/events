@@ -1,12 +1,10 @@
 import styles from '@styles/NavBar.module.css'
-import Link from 'next/link'
+import { NavLink } from '../NavLink'
 
-export const NavBarBrandSection = (props: any) => {
+export const NavBarBrandSection = () => {
   return (
-    <Link href=''>
-      <a className='flex items-center'>
-        <span className={styles['nav-bar-section__company-name']}>Company Name</span>
-      </a>
-    </Link>
+    <NavLink href='' className='flex items-center'>
+      <span className={styles['nav-bar-section__company-name']}>Company Name</span>
+    </NavLink>
   )
 }

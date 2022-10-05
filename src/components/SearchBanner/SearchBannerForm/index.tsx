@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import styles from '@styles/Search.module.css'
 import { styleTransformer as styled } from '@helpers/style-transformer'
 
@@ -11,10 +11,11 @@ export const SearchBannerForm = () => {
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault()
-    console.log('OK ', search)
+    // TODO action
   }
 
-  const isDisabled = !Boolean(search.category && search.location)
+  const isDisabled = !(search.category && search.location)
+
   return (
     <form
       onSubmit={(e) => handleSubmit(e)}

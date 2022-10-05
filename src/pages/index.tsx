@@ -1,7 +1,7 @@
-import { NavBar } from '@components/NavBar'
-import { PageLayout, SearchBanner } from '@components/shared'
+import { PageLayout, SearchBanner, NavBar } from '@components/shared'
+import { NextPage } from 'next'
 
-const Home = () => {
+const Home: NextPage = () => {
   return (
     <PageLayout title='Events - Home'>
       <>

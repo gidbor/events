@@ -1,15 +1,14 @@
-import Head from 'next/head'
+import { PageLayout, SearchBanner, NavBar } from '@components/shared'
+import { NextPage } from 'next'
 
-import Button from '@mui/material/Button'
-
-const Home = () => {
+const Home: NextPage = () => {
   return (
-    <>
-      <Head>
-        <title>Hola</title>
-        <Button variant='contained'>Hello World</Button>
-      </Head>
-    </>
+    <PageLayout title='Events - Home'>
+      <>
+        <NavBar />
+        <SearchBanner />
+      </>
+    </PageLayout>
   )
 }
 
